@@ -21,3 +21,46 @@ html {
     scroll-margin-top: 1em;
 
 }
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+.coffeeModal:hover {
+    -webkit-animation: coffeeModal 0.5s ease-in-out both;
+    animation: coffeeModal 0.5s ease-in-out both;
+}
+
+
+
+@-webkit-keyframes coffeeModal {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes coffeeModal {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
