@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+.main{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section {
+    height: 65vh;
+    align-content: center;
+    scroll-margin-top: 1em;
+
+}
