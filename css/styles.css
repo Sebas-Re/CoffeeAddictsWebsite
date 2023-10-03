@@ -29,6 +29,16 @@ html {
     min-height: 200px;
 }
 
+.map{
+    position:relative;
+    text-align:left;
+    width:100%;
+    height:400px;
+}
+
+.gmap_frame{
+    padding-top: 12vh;
+}
 
 .coffeeModal:hover {
     -webkit-animation: coffeeModal 0.5s ease-in-out both;
